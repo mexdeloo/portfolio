@@ -34,9 +34,10 @@ import SpotifyPresence from '../components/SpotifyPresence.vue';
         </h2>
 
         <p class="mt-8 text-lg text-gray-300">
-          My name is Mex de Loo aka Zeo. I'm currently studying Computer Science, however I've been programming for well over 4 years. I'm a freelance developer which specializes in web development, so please don't be afraid to reach out!
+          My name is Mex de Loo aka Zeo. I'm currently pursuing a Master in Computer Science with a focus on formal methods. I am also working part-time as a DevOps Engineer at Albert Heijn, where I focus on backend development.
         </p>
 
+        <!--
         <div class="flex space-x-6 mt-5">
           <template
             v-for="(skill, i) in skills"
@@ -53,6 +54,7 @@ import SpotifyPresence from '../components/SpotifyPresence.vue';
             </div>
           </template>
         </div>
+        -->
 
         <SpotifyPresence />
       </div>
