@@ -28,15 +28,16 @@ import SpotifyPresence from '../components/SpotifyPresence.vue';
     <div class="relative max-w-5xl mx-auto px-4 py-8 md:px-0">
       <div class="max-w-2xl py-16 sm:py-40">
         <h2 class="text-4xl w-min font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
-          Zeo
+          Mex de Loo
 
           <Skribbl class="mx-auto mt-2 text-primary-300 w-42 h-6" />
         </h2>
 
         <p class="mt-8 text-lg text-gray-300">
-          My name is Mex de Loo aka Zeo. I'm currently studying Computer Science, however I've been programming for well over 4 years. I'm a freelance developer which specializes in web development, so please don't be afraid to reach out!
+          My name is Mex de Loo aka Zeo. I'm currently pursuing a Master in Computer Science with a focus on formal methods. I am also working part-time as a DevOps Engineer at Albert Heijn, where I focus on backend development.
         </p>
 
+        <!--
         <div class="flex space-x-6 mt-5">
           <template
             v-for="(skill, i) in skills"
@@ -53,6 +54,7 @@ import SpotifyPresence from '../components/SpotifyPresence.vue';
             </div>
           </template>
         </div>
+        -->
 
         <SpotifyPresence />
       </div>
