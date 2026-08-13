@@ -28,7 +28,7 @@ import SpotifyPresence from '../components/SpotifyPresence.vue';
     <div class="relative max-w-5xl mx-auto px-4 py-8 md:px-0">
       <div class="max-w-2xl py-16 sm:py-40">
         <h2 class="text-4xl w-min font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
-          Zeo
+          Mex de Loo
 
           <Skribbl class="mx-auto mt-2 text-primary-300 w-42 h-6" />
         </h2>
