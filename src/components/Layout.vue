@@ -76,7 +76,7 @@ const mobileOpen = ref(false);
             </template>
 
             <DropdownItem
-              href="https://github.com/zeo"
+              href="https://github.com/mexdeloo"
               target="_blank"
               :icon="faGithub"
             >
@@ -153,7 +153,7 @@ const mobileOpen = ref(false);
 
             <div class="mt-3 space-x-5">
               <a
-                href="https://github.com/zeo"
+                href="https://github.com/mexdeloo"
                 target="_blank"
               >
                 <font-awesome-icon
