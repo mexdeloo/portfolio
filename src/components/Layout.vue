@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Dropdown from '../components/Dropdown.vue';
 import DropdownItem from './DropdownItem.vue';
-import { faGithub, faSteam } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { ref } from 'vue';
 
 const mobileOpen = ref(false);
@@ -84,11 +84,11 @@ const mobileOpen = ref(false);
             </DropdownItem>
 
             <DropdownItem
-              href="https://steamcommunity.com/id/zeo-dev/"
+              href="https://www.linkedin.com/in/mex-de-loo"
               target="_blank"
-              :icon="faSteam"
+              :icon="faLinkedin"
             >
-              Steam
+              LinkedIn
             </DropdownItem>
           </Dropdown>
         </nav>
@@ -164,12 +164,12 @@ const mobileOpen = ref(false);
               </a>
 
               <a
-                href="https://steamcommunity.com/id/zeo-dev/"
+                href="https://www.linkedin.com/in/mex-de-loo"
                 target="_blank"
               >
                 <font-awesome-icon
                   size="lg"
-                  :icon="faSteam"
+                  :icon="faLinkedin"
                   class="text-gray-400 hover:text-gray-300"
                 />
               </a>
